@@ -9,8 +9,11 @@ module.exports = {
     extend: {
       colors: {
         primary: "#CC0101",
+        secondary: "#f9f9f9",
+        blackTheme: "#111111",
       },
       backgroundImage: {
+        "hero-wave": "url('/images/online-banking-1c.png')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
