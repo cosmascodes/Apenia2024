@@ -46,9 +46,9 @@ export default function Home() {
       <section className="grid grid-cols-2 place-content-center place-items-center p-24 px-40 bg-white">
         <div>
           <img
-            src="/images/online-banking-28.png"
+            src="/images/online-banking-50b.png"
             alt="Apenia.com"
-            className="w-[90%]"
+            className="w-full h-[600px] border-8 border-blackTheme rounded-3xl"
           />
         </div>
         <div>
@@ -63,7 +63,7 @@ export default function Home() {
             fermentum purus venenatis amet.
           </p>
           <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
-            Join Apenia today
+            Download the app
           </button>
         </div>
       </section>
