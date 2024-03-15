@@ -3,7 +3,8 @@ import Hero from "@/sections/landing/hero";
 export default function Home() {
   return (
     <main className="bg-secondary">
-      <div className="p-24 grid bg-hero-wave bg-center bg-cover">
+      {/* Hero */}
+      <section className="p-24 grid bg-hero-wave bg-center bg-cover">
         <div className="flex flex-row">
           <div className="w-1/2">
             <h1 className=" text-7xl font-bold mt-12">Divi Online Banking</h1>
@@ -40,7 +41,32 @@ export default function Home() {
             <p>Quisque aliquet velit sit amet sem interdu</p>
           </div>
         </div>
-      </div>
+      </section>
+      {/*  */}
+      <section className="grid grid-cols-2 place-content-center place-items-center p-24 px-40 bg-white">
+        <div>
+          <img
+            src="/images/online-banking-28.png"
+            alt="Apenia.com"
+            className="w-[90%]"
+          />
+        </div>
+        <div>
+          <h2 className=" text-5xl font-semibold ">
+            Easy-To-Use Financial Tools
+          </h2>
+          <p className="my-8">
+            Curabitur fermentum nulla non justo aliquet, quis vehicula quam
+            consequat. Duis ut hendrerit tellus, elementum lacinia elit.
+            Maecenas at consectetur ex, vitae consequat augue. Vivamus eget
+            dolor vel quam condimentum sodales. In bibendum odio urna, sit amet
+            fermentum purus venenatis amet.
+          </p>
+          <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
+            Join Apenia today
+          </button>
+        </div>
+      </section>
     </main>
   );
 }
