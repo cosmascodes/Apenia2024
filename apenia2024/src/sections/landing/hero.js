@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="p-24 grid">
+    <div className="p-24 grid bg-hero-wave bg-center bg-cover">
       <div className="flex flex-row">
         <div className="w-1/2">
           <h1 className=" text-7xl font-bold ">Divi Online Banking</h1>
