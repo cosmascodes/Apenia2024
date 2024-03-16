@@ -257,7 +257,7 @@ export default function Home() {
                 )}
                 k
               </h2>
-              <p className="py-6">
+              <p className="py-6 font-semibold">
                 Luctus lectus non quisque turpis bibendum posuere.
               </p>
             </div>
@@ -269,7 +269,7 @@ export default function Home() {
                 )}
                 m
               </h2>
-              <p className="py-6">
+              <p className="py-6 font-semibold">
                 Luctus lectus non quisque turpis bibendum posuere.
               </p>
             </div>
@@ -279,7 +279,7 @@ export default function Home() {
                   <CountUp start={0} end={267} duration={2.75}></CountUp>
                 )}
               </h2>
-              <p className="py-6">
+              <p className="py-6 font-semibold">
                 Luctus lectus non quisque turpis bibendum posuere.
               </p>
             </div>
