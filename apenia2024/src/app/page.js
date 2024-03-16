@@ -95,7 +95,7 @@ export default function Home() {
         <div>
           <p className="uppercase tracking-[0.8em] text-sm ml-1">AI Chatbot</p>
           <h2 className=" text-5xl font-semibold mt-5">
-            Intelligent Conversational Assistant
+            Intelligent Chat Assistant
           </h2>
           <p className="my-8">
             Curious about understanding your loan quotation? Wondering about the
