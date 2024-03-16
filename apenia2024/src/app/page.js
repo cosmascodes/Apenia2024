@@ -67,6 +67,34 @@ export default function Home() {
           </button>
         </div>
       </section>
+
+      {/*  */}
+      <section className="grid grid-cols-2 place-content-center place-items-center p-24 px-40">
+        <div>
+          <p className="uppercase tracking-[0.8em] text-sm">BUSINESS BANKING</p>
+          <h2 className=" text-5xl font-semibold mt-5">
+            Smart, Simple Banking
+          </h2>
+          <p className="my-8">
+            Aliquam feugiat ut diam non tempus. Interdum et malesuada fames ac
+            ante ipsum primis in faucibus. Curabitur ac odio consequat, auctor
+            risus non, egestas dolor. In sit amet urna at metus dictum commodo a
+            at nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec sed finibus nisi, sed dictum eros. Aliquam sodales nulla
+            dolor, sed vulputate sapien efficitur ut.
+          </p>
+          <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
+            Get started
+          </button>
+        </div>
+        <div>
+          <img
+            src="/images/online-banking-50b.png"
+            alt="Apenia.com"
+            className="w-full h-[600px] border-8 border-blackTheme rounded-3xl"
+          />
+        </div>
+      </section>
     </main>
   );
 }
