@@ -1,6 +1,10 @@
-import Hero from "@/sections/landing/hero";
+"use client";
+import { useState } from "react";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 
 export default function Home() {
+  const [counter, setCounter] = useState(false);
   return (
     <main className="bg-secondary">
       {/* Hero */}
@@ -216,6 +220,72 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/*  */}
+      <section className="p-24 pb-12 bg-white">
+        <div className="grid grid-cols-2">
+          <div>
+            <p className="uppercase tracking-[0.7em] text-sm">ABOUT US</p>
+            <h2 className="text-4xl font-bold mt-4 mb-20">
+              Get To Know More About Divi Online Bank
+            </h2>
+          </div>
+          <div>
+            <p>
+              Aliquet nisl. Nulla tempor mauris sed pretium egestas. Ut mi
+              lacus, tincidunt ac quam quis, ultricies laoreet purus. Donec
+              tincidunt scelerisque lacus, vel convallis augue interdum ac.
+              Etiam eget tortor ac odio aliquam lobortis quis at augue. Duis ut
+              hendrerit tellus, elementum lacinia elit. Maecenas at consectetur
+              ex, vitae consequat augue. Vivamus eget dolor vel quam condimentum
+              sodales.
+            </p>
+          </div>
+        </div>
+
+        <ScrollTrigger
+          onEnter={() => {
+            setCounter(true);
+          }}
+        >
+          <div className="grid grid-cols-3 place-content-center place-items-center gap-12 py-12">
+            <div className="border border-blackTheme text-center p-10 rounded-xl">
+              <h2 className="pt-12 text-4xl font-bold">
+                {counter && (
+                  <CountUp start={0} end={234} duration={2.75}></CountUp>
+                )}
+                K
+              </h2>
+              <p className="py-6">
+                Luctus lectus non quisque turpis bibendum posuere.
+              </p>
+            </div>
+
+            <div className="bg-tertiary text-center p-10 rounded-xl">
+              <h2 className="pt-12 text-4xl font-bold">
+                {counter && (
+                  <CountUp start={0} end={234} duration={2.75}></CountUp>
+                )}
+                K
+              </h2>
+              <p className="py-6">
+                Luctus lectus non quisque turpis bibendum posuere.
+              </p>
+            </div>
+            <div className="text-center p-10 rounded-xl bg-red-500">
+              <h2 className="pt-12 text-4xl font-bold">
+                {counter && (
+                  <CountUp start={0} end={234} duration={2.75}></CountUp>
+                )}
+                K
+              </h2>
+              <p className="py-6">
+                Luctus lectus non quisque turpis bibendum posuere.
+              </p>
+            </div>
+          </div>
+        </ScrollTrigger>
       </section>
     </main>
   );

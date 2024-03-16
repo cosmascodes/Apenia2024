@@ -11,6 +11,7 @@ module.exports = {
         primary: "#CC0101",
         secondary: "#f9f9f9",
         blackTheme: "#111111",
+        tertiary: "#f2f3f2",
       },
       backgroundImage: {
         "hero-wave": "url('/images/online-banking-1c.png')",

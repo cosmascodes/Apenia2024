@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full h-20 bg-white px-6 overflow-hidden border-b border-blue-200 flex justify-between">
+    <header className="fixed top-0 left-0 w-full h-20 bg-white px-6 overflow-hidden flex justify-between">
       <div className="py-6 h-full flex items-center">
         <img src="/images/logo-a.svg" alt="Apenia.com" className="h-12" />
       </div>
