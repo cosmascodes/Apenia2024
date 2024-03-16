@@ -149,11 +149,11 @@ export default function Home() {
             />
             <div className="flex flex-col">
               <h2 className="font-semibold text-2xl mb-3">
-                No Toggling Between Apps
+                Personalized Financial Guidance
               </h2>
               <p>
-                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
-                aliquet mollis etiam tincidunt ligula.
+                Tailored advice for your needs. Expert advisors help you reach
+                financial goals effectively.
               </p>
             </div>
           </div>
@@ -165,11 +165,11 @@ export default function Home() {
             />
             <div className="flex flex-col">
               <h2 className="font-semibold text-2xl mb-3">
-                No Toggling Between Apps
+                Cutting-Edge AI Technology
               </h2>
               <p>
-                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
-                aliquet mollis etiam tincidunt ligula.
+                Advanced AI for streamlined banking. Instant insights, proactive
+                assistance, effortless transactions - fintech pioneers.
               </p>
             </div>
           </div>
@@ -181,11 +181,11 @@ export default function Home() {
             />
             <div className="flex flex-col">
               <h2 className="font-semibold text-2xl mb-3">
-                No Toggling Between Apps
+                Transparent Fee Structure
               </h2>
               <p>
-                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
-                aliquet mollis etiam tincidunt ligula.
+                No hidden fees. Clear, fair charges empower confident financial
+                decisions. Trustworthy integrity.
               </p>
             </div>
           </div>
@@ -197,11 +197,11 @@ export default function Home() {
             />
             <div className="flex flex-col">
               <h2 className="font-semibold text-2xl mb-3">
-                No Toggling Between Apps
+                Exceptional Customer Support
               </h2>
               <p>
-                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
-                aliquet mollis etiam tincidunt ligula.
+                24/7 assistance exceeds expectations. Prompt, reliable support
+                whenever needed. Customer satisfaction guaranteed.
               </p>
             </div>
           </div>
@@ -213,11 +213,11 @@ export default function Home() {
             />
             <div className="flex flex-col">
               <h2 className="font-semibold text-2xl mb-3">
-                No Toggling Between Apps
+                Seamless Digital Experience
               </h2>
               <p>
-                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
-                aliquet mollis etiam tincidunt ligula.
+                Banking made easy, anytime, anywhere. Intuitive platform for
+                effortless management. Future-ready online solutions.
               </p>
             </div>
           </div>
@@ -229,11 +229,11 @@ export default function Home() {
             />
             <div className="flex flex-col">
               <h2 className="font-semibold text-2xl mb-3">
-                No Toggling Between Apps
+                Continuous Learning and Improvement
               </h2>
               <p>
-                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
-                aliquet mollis etiam tincidunt ligula.
+                Committed to your growth. Always adapting, delivering top-notch
+                service and solutions. Evolving with you.
               </p>
             </div>
           </div>
