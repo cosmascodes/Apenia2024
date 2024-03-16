@@ -16,8 +16,8 @@ const Footer = () => {
             className="w-5 h-5 ml-5"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="m8.25 4.5 7.5 7.5-7.5 7.5"
             />
           </svg>
