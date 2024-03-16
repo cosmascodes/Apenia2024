@@ -1,25 +1,25 @@
 const Header = () => {
   return (
-    <header className="fixed top-0 z-50 left-0 w-full h-20 bg-white px-6 overflow-hidden flex justify-between">
+    <header className="fixed top-0 z-50 left-0 w-full h-20 bg-secondary px-6 overflow-hidden flex justify-between">
       <div className="py-6 h-full flex items-center">
         <img src="/images/logo-a.svg" alt="Apenia.com" className="h-12" />
       </div>
       <nav className="h-full ">
         <ul className="text-black flex h-full items-center font-bold">
           <li className="ml-6">
-            <a href="#">Link 1</a>
+            <a href="#">Customer</a>
           </li>
           <li className="ml-6">
-            <a href="#">Link 2</a>
+            <a href="#">Company</a>
           </li>
           <li className="ml-6">
-            <a href="#">Link 3</a>
+            <a href="#">Invest in Business</a>
           </li>
           <li className="ml-6">
-            <a href="#">Link 4</a>
+            <a href="#">Sign In</a>
           </li>
           <li className="ml-8 bg-primary text-white px-8 py-1.5 rounded-full">
-            <a href="#">Link 4</a>
+            <a href="#"> Apply </a>
           </li>
         </ul>
       </nav>
