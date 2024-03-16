@@ -14,6 +14,8 @@ module.exports = {
       },
       backgroundImage: {
         "hero-wave": "url('/images/online-banking-1c.png')",
+        gradientTheme:
+          "radial-gradient(circle at left, rgba(19, 98, 126, 0.4) 0%, rgba(255, 255, 255, 0) 25%) !important;",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

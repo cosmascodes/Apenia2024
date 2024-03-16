@@ -97,6 +97,18 @@ export default function Home() {
       </section>
 
       {/*  */}
+      <section className="p-24 flex justify-center items-center">
+        <div className=" bg-gradientTheme px-24 bg-blackTheme text-white rounded-3xl w-[70%] h-[500px] flex flex-col justify-center items-center">
+          <h1 className="text-5xl font-bold text-center leading-tight">
+            Order Your New Digital Card Today
+          </h1>
+          <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
+            Get started
+          </button>
+        </div>
+      </section>
+
+      {/*  */}
       <section className="flex flex-col p-24">
         <div className="text-center">
           <p className="uppercase tracking-[0.7em] text-sm">
