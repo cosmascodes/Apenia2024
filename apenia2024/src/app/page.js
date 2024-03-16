@@ -245,19 +245,20 @@ export default function Home() {
         <div className="grid grid-cols-2">
           <div>
             <p className="uppercase tracking-[0.7em] text-sm">ABOUT US</p>
-            <h2 className="text-4xl font-bold mt-4 mb-20">
-              Get To Know More About Divi Online Bank
+            <h2 className="text-4xl font-bold mt-4 mb-20 mr-24">
+              Get To Know More About Apenia A.I. Bank
             </h2>
           </div>
           <div>
             <p>
-              Aliquet nisl. Nulla tempor mauris sed pretium egestas. Ut mi
-              lacus, tincidunt ac quam quis, ultricies laoreet purus. Donec
-              tincidunt scelerisque lacus, vel convallis augue interdum ac.
-              Etiam eget tortor ac odio aliquam lobortis quis at augue. Duis ut
-              hendrerit tellus, elementum lacinia elit. Maecenas at consectetur
-              ex, vitae consequat augue. Vivamus eget dolor vel quam condimentum
-              sodales.
+              At Apenia, we are revolutionizing banking through innovation and
+              personalized service. Our commitment is to empower individuals and
+              businesses with cutting-edge AI technology, transparent practices,
+              and exceptional customer support. With a focus on continuous
+              improvement, we strive to exceed expectations, ensuring financial
+              success and peace of mind for all our clients. Join us in shaping
+              the future of banking, where convenience, trust, and excellence
+              converge.
             </p>
           </div>
         </div>
