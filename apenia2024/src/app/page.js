@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-row">
           <div className="w-[70%] mt-12">
             <h1 className=" text-6xl leading-tight font-bold mt-12">
-              Africa's Smart Banking with A.I. Technology
+              Africa&apos;s Smart Banking with A.I. Technology
             </h1>
             <p className="mt-8 text-xl w-3/4">
               Experience intelligent banking solutions with Apenia. Enjoy the
