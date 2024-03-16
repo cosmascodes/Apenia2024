@@ -95,6 +95,116 @@ export default function Home() {
           />
         </div>
       </section>
+
+      {/*  */}
+      <section className="flex flex-col p-24">
+        <div className="text-center">
+          <p className="uppercase tracking-[0.7em] text-sm">
+            SEAMLESS FINANCES
+          </p>
+          <h1 className="text-4xl font-bold mt-4 mb-20">
+            Easy to Use Financial Tools
+          </h1>
+        </div>
+        <div className="grid grid-cols-2 gap-12 place-content-center place-items-center">
+          <div className="flex flex-row">
+            <img
+              src="/images/online-banking-icon-2x-01.png"
+              alt="icon"
+              className=" w-auto h-10 mr-6 "
+            />
+            <div className="flex flex-col">
+              <h2 className="font-semibold text-2xl mb-3">
+                No Toggling Between Apps
+              </h2>
+              <p>
+                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
+                aliquet mollis etiam tincidunt ligula.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <img
+              src="/images/online-banking-icon-2x-01.png"
+              alt="icon"
+              className=" w-auto h-10 mr-6 "
+            />
+            <div className="flex flex-col">
+              <h2 className="font-semibold text-2xl mb-3">
+                No Toggling Between Apps
+              </h2>
+              <p>
+                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
+                aliquet mollis etiam tincidunt ligula.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <img
+              src="/images/online-banking-icon-2x-01.png"
+              alt="icon"
+              className=" w-auto h-10 mr-6 "
+            />
+            <div className="flex flex-col">
+              <h2 className="font-semibold text-2xl mb-3">
+                No Toggling Between Apps
+              </h2>
+              <p>
+                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
+                aliquet mollis etiam tincidunt ligula.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <img
+              src="/images/online-banking-icon-2x-01.png"
+              alt="icon"
+              className=" w-auto h-10 mr-6 "
+            />
+            <div className="flex flex-col">
+              <h2 className="font-semibold text-2xl mb-3">
+                No Toggling Between Apps
+              </h2>
+              <p>
+                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
+                aliquet mollis etiam tincidunt ligula.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <img
+              src="/images/online-banking-icon-2x-01.png"
+              alt="icon"
+              className=" w-auto h-10 mr-6 "
+            />
+            <div className="flex flex-col">
+              <h2 className="font-semibold text-2xl mb-3">
+                No Toggling Between Apps
+              </h2>
+              <p>
+                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
+                aliquet mollis etiam tincidunt ligula.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <img
+              src="/images/online-banking-icon-2x-01.png"
+              alt="icon"
+              className=" w-auto h-10 mr-6 "
+            />
+            <div className="flex flex-col">
+              <h2 className="font-semibold text-2xl mb-3">
+                No Toggling Between Apps
+              </h2>
+              <p>
+                Quisque aliquet velit sit amet sem interdum faucibus. In feugiat
+                aliquet mollis etiam tincidunt ligula.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
