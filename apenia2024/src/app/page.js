@@ -8,41 +8,61 @@ export default function Home() {
   return (
     <main className="bg-secondary">
       {/* Hero */}
-      <section className="p-24 grid bg-hero-wave bg-center bg-cover">
+      <section className="p-24  bg-hero-wave bg-center bg-cover">
         <div className="flex flex-row">
-          <div className="w-1/2">
-            <h1 className=" text-7xl font-bold mt-12">Divi Online Banking</h1>
-            <p className="mt-8">
-              Vitae consequat augue. Vivamus eget dolor vel quam condimentum
-              sodales in bibendum odio urna sit amet.
+          <div className="w-[70%] mt-12">
+            <h1 className=" text-6xl leading-tight font-bold mt-12">
+              Africa's Smart Banking with A.I. Technology
+            </h1>
+            <p className="mt-8 text-xl w-3/4">
+              Experience intelligent banking solutions with Apenia. Enjoy the
+              personalized, secure, and effortless transactions powered by
+              advanced AI technology.
             </p>
             <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
               Join Apenia today
             </button>
           </div>
-          <div className="w-[50vw] flex justify-end">
+          <div className="w-[30%] flex justify-end">
             <img
               src="/images/online-banking-28.png"
               alt="Apenia.com"
-              className="w-[90%]"
+              className="w-[50%] absolute right-0"
             />
           </div>
         </div>
-        <div className="grid grid-cols-4 mt-3 gap-4">
-          <div className=" col-start-1 col-end-1 p-6 border border-slate-300 rounded-xl">
-            <img src="/images/wallet.png" alt="wallet" />
-            <h2 className="text-xl font-bold my-4">Donec sed nisi</h2>
-            <p>Quisque aliquet velit sit amet sem interdu</p>
+        <div className="grid grid-cols-4 mt-24 gap-4">
+          <div className=" col-start-1 col-end-1 p-6 bg-red-100 rounded-xl">
+            <img
+              src="/images/insights.png"
+              alt="wallet"
+              className="w-[50px] h-[50px] mt-24"
+            />
+            <h2 className="text-xl font-bold my-4">Personalized Insights</h2>
+            <p>Discover tailored recommendations based on your profile</p>
           </div>
-          <div className="  col-start-2 col-end-2 p-6 border border-slate-300 rounded-xl">
-            <img src="/images/wallet.png" alt="wallet" />
-            <h2 className="text-xl font-bold my-4">Donec sed nisi</h2>
-            <p>Quisque aliquet velit sit amet sem interdu</p>
+          <div className="  col-start-2 col-end-2 p-6 bg-red-200 rounded-xl">
+            <img
+              src="/images/secure.png"
+              alt="wallet"
+              className="w-[50px] h-[50px] mt-24"
+            />
+            <h2 className="text-xl font-bold my-4">Secure Transactions</h2>
+            <p>Protecting your assets with advanced fraud detection</p>
           </div>
-          <div className="col-start-3 col-end-5 p-6 border border-slate-300 rounded-xl">
-            <img src="/images/wallet.png" alt="wallet" />
-            <h2 className="text-xl font-bold my-4">Donec sed nisi</h2>
-            <p>Quisque aliquet velit sit amet sem interdu</p>
+          <div className="col-start-3 col-end-5 p-6 rounded-xl bg-red-300">
+            <img
+              src="/images/effortless.png"
+              alt="wallet"
+              className="w-[50px] h-[50px] mt-24"
+            />
+            <h2 className="text-xl font-bold my-4">
+              Effortless Banking Experience
+            </h2>
+            <p>
+              Experience effortless banking made remarkably simple with the
+              seamless assistance of cutting-edge A.I. technology
+            </p>
           </div>
         </div>
       </section>
@@ -57,17 +77,15 @@ export default function Home() {
         </div>
         <div>
           <h2 className=" text-5xl font-semibold ">
-            Easy-To-Use Financial Tools
+            AI-Powered Fast Banking Solutions
           </h2>
-          <p className="my-8">
-            Curabitur fermentum nulla non justo aliquet, quis vehicula quam
-            consequat. Duis ut hendrerit tellus, elementum lacinia elit.
-            Maecenas at consectetur ex, vitae consequat augue. Vivamus eget
-            dolor vel quam condimentum sodales. In bibendum odio urna, sit amet
-            fermentum purus venenatis amet.
+          <p className="my-8 pr-14">
+            Automated loan processing, no manual input needed. AI calculates
+            loan and interest rates instantly. Apply anytime, receive funds same
+            day. Online applications aid fast capital management
           </p>
           <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
-            Download the app
+            Apply now
           </button>
         </div>
       </section>
@@ -75,20 +93,20 @@ export default function Home() {
       {/*  */}
       <section className="grid grid-cols-2 place-content-center place-items-center p-24 px-40">
         <div>
-          <p className="uppercase tracking-[0.8em] text-sm">BUSINESS BANKING</p>
+          <p className="uppercase tracking-[0.8em] text-sm ml-1">AI Chatbot</p>
           <h2 className=" text-5xl font-semibold mt-5">
-            Smart, Simple Banking
+            Intelligent Conversational Assistant
           </h2>
           <p className="my-8">
-            Aliquam feugiat ut diam non tempus. Interdum et malesuada fames ac
-            ante ipsum primis in faucibus. Curabitur ac odio consequat, auctor
-            risus non, egestas dolor. In sit amet urna at metus dictum commodo a
-            at nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Donec sed finibus nisi, sed dictum eros. Aliquam sodales nulla
-            dolor, sed vulputate sapien efficitur ut.
+            Curious about understanding your loan quotation? Wondering about the
+            flexibility of installment arrangements for your loan? Applying
+            online is simpler than you might imagine. Our AI is available 24/7
+            to address your inquiries at any time. Plus, our AI continually
+            learns and enhances your financial journey, ensuring a smoother
+            application process for you.
           </p>
           <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
-            Get started
+            Apply now
           </button>
         </div>
         <div>
@@ -107,7 +125,7 @@ export default function Home() {
             Order Your New Digital Card Today
           </h1>
           <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
-            Get started
+            Apply now
           </button>
         </div>
       </section>
