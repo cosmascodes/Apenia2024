@@ -255,7 +255,7 @@ export default function Home() {
                 {counter && (
                   <CountUp start={0} end={234} duration={2.75}></CountUp>
                 )}
-                K
+                k
               </h2>
               <p className="py-6">
                 Luctus lectus non quisque turpis bibendum posuere.
@@ -265,9 +265,9 @@ export default function Home() {
             <div className="bg-tertiary text-center p-10 rounded-xl">
               <h2 className="pt-12 text-4xl font-bold">
                 {counter && (
-                  <CountUp start={0} end={234} duration={2.75}></CountUp>
+                  <CountUp start={0} end={489} duration={2.75}></CountUp>
                 )}
-                K
+                m
               </h2>
               <p className="py-6">
                 Luctus lectus non quisque turpis bibendum posuere.
@@ -276,9 +276,8 @@ export default function Home() {
             <div className="text-center p-10 rounded-xl bg-red-500">
               <h2 className="pt-12 text-4xl font-bold">
                 {counter && (
-                  <CountUp start={0} end={234} duration={2.75}></CountUp>
+                  <CountUp start={0} end={267} duration={2.75}></CountUp>
                 )}
-                K
               </h2>
               <p className="py-6">
                 Luctus lectus non quisque turpis bibendum posuere.
