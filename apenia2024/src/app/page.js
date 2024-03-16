@@ -143,7 +143,7 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-12 place-content-center place-items-center">
           <div className="flex flex-row">
             <img
-              src="/images/online-banking-icon-2x-01.png"
+              src="/images/guidance.png"
               alt="icon"
               className=" w-auto h-10 mr-6 "
             />
@@ -159,7 +159,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row">
             <img
-              src="/images/online-banking-icon-2x-01.png"
+              src="/images/brain.png"
               alt="icon"
               className=" w-auto h-10 mr-6 "
             />
@@ -175,7 +175,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row">
             <img
-              src="/images/online-banking-icon-2x-01.png"
+              src="/images/transparency.png"
               alt="icon"
               className=" w-auto h-10 mr-6 "
             />
@@ -191,7 +191,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row">
             <img
-              src="/images/online-banking-icon-2x-01.png"
+              src="/images/headset.png"
               alt="icon"
               className=" w-auto h-10 mr-6 "
             />
@@ -207,7 +207,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row">
             <img
-              src="/images/online-banking-icon-2x-01.png"
+              src="/images/smartphone.png"
               alt="icon"
               className=" w-auto h-10 mr-6 "
             />
@@ -223,7 +223,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row">
             <img
-              src="/images/online-banking-icon-2x-01.png"
+              src="/images/plant.png"
               alt="icon"
               className=" w-auto h-10 mr-6 "
             />
@@ -245,7 +245,7 @@ export default function Home() {
         <div className="grid grid-cols-2">
           <div>
             <p className="uppercase tracking-[0.7em] text-sm">ABOUT US</p>
-            <h2 className="text-4xl font-bold mt-4 mb-20 mr-24">
+            <h2 className="text-5xl font-bold mt-4 mb-20 mr-32">
               Get To Know More About Apenia A.I. Bank
             </h2>
           </div>
@@ -277,19 +277,19 @@ export default function Home() {
                 k
               </h2>
               <p className="py-6 font-semibold">
-                Luctus lectus non quisque turpis bibendum posuere.
+                Serving thousands with personalized financial solutions.
               </p>
             </div>
 
             <div className="bg-tertiary text-center p-10 rounded-xl">
               <h2 className="pt-12 text-4xl font-bold">
                 {counter && (
-                  <CountUp start={0} end={489} duration={2.75}></CountUp>
+                  <CountUp start={0} end={10} duration={2.75}></CountUp>
                 )}
-                m
+                y
               </h2>
               <p className="py-6 font-semibold">
-                Luctus lectus non quisque turpis bibendum posuere.
+                Trusted for decades, ensuring financial stability.
               </p>
             </div>
             <div className="text-center p-10 rounded-xl bg-red-500">
@@ -297,9 +297,10 @@ export default function Home() {
                 {counter && (
                   <CountUp start={0} end={267} duration={2.75}></CountUp>
                 )}
+                m
               </h2>
               <p className="py-6 font-semibold">
-                Luctus lectus non quisque turpis bibendum posuere.
+                Managing billions, safeguarding your financial future.
               </p>
             </div>
           </div>
