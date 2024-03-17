@@ -91,7 +91,7 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="grid md:grid-cols-2 place-content-center place-items-center md:p-24 md:px-40">
+      <section className="grid md:grid-cols-2 place-content-center place-items-center py-12 px-6 md:p-24 md:px-40">
         <div>
           <p className="uppercase tracking-[0.8em] text-sm ml-1">AI Chatbot</p>
           <h2 className=" text-5xl font-semibold mt-5">
@@ -109,7 +109,7 @@ export default function Home() {
             Apply now
           </button>
         </div>
-        <div>
+        <div className="md:pt-12 md:px-6">
           <img
             src="/images/online-banking-50b.png"
             alt="Apenia.com"
@@ -119,8 +119,8 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="md:p-24 flex justify-center items-center">
-        <div className=" bg-gradientTheme md:px-24 bg-blackTheme text-white rounded-3xl md:w-[70%] h-[500px] flex flex-col justify-center items-center">
+      <section className="py-12 px-6 md:p-24 flex justify-center items-center">
+        <div className=" bg-gradientTheme py-24 md:py-0 md:px-24 bg-blackTheme text-white rounded-3xl md:w-[70%] md:h-[500px] flex flex-col justify-center items-center">
           <h1 className="text-3xl md:text-5xl font-bold text-center leading-tight">
             Order Your New Digital Card Today
           </h1>
