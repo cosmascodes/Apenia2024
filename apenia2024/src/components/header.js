@@ -4,7 +4,7 @@ const Header = () => {
       <div className="py-6 h-full flex items-center">
         <img src="/images/logo-a.svg" alt="Apenia.com" className="h-12" />
       </div>
-      <nav className="h-full ">
+      <nav className="hidden h-full ">
         <ul className="text-black flex h-full items-center font-bold">
           <li className="ml-6">
             <a href="#">Customer</a>

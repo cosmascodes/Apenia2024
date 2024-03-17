@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
-    <footer className="bg-blackTheme bg-hero-wave bg-cover bg-center pt-24 px-6 text-white flex flex-col justify-center items-center">
-      <div className=" w-2/3 text-center flex flex-col items-center">
-        <h1 className=" font-bold text-7xl ">
+    <footer className="bg-blackTheme bg-hero-wave bg-cover bg-center pt-12 md:pt-24 px-6 text-white flex flex-col justify-center items-center">
+      <div className=" md:w-2/3 text-center flex flex-col items-center">
+        <h1 className=" font-bold text-2xl  md:text-7xl ">
           Elevate Your Finances With Apenia AI
         </h1>
-        <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
+        <button className="bg-primary uppercase text-white rounded-full px-5 md:px-10 py-4 text-sm mt-8 flex flex-row">
           Join Apenia today
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ const Footer = () => {
           </svg>
         </button>
       </div>
-      <div className="grid grid-cols-4 w-full place-items-center mt-14">
+      <div className="grid md:grid-cols-4 w-full md:place-items-center mt-14">
         <div>
           <h2 className=" text-xl mb-6 font-semibold">Company</h2>
           <ul>
@@ -105,7 +105,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="w-full px-24 pt-12 flex flex-row gap-12">
+      <div className="w-full px-0 md:px-24 pt-12 flex flex-col md:flex-row gap-12">
         <div>
           <h2 className=" text-xl mb-6 font-semibold">Contact</h2>
           <ul>
@@ -174,7 +174,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="pt-20 pb-10">
+      <div className="pt-20 pb-10 text-center md:text-left">
         <p>&copy; 2024 Apenia Technologies Ltd. All rights reserved.</p>
       </div>
     </footer>

@@ -8,31 +8,31 @@ export default function Home() {
   return (
     <main className="bg-secondary">
       {/* Hero */}
-      <section className="p-24  bg-hero-wave bg-center bg-cover">
-        <div className="flex flex-row">
-          <div className="w-[70%] mt-12">
-            <h1 className=" text-6xl leading-tight font-bold mt-12">
+      <section className="p-6 py-24 md:p-24  bg-hero-wave bg-center bg-cover">
+        <div className="flex flex-col md:flex-row">
+          <div className="md:w-[70%] md:mt-12">
+            <h1 className="text-4xl md:text-6xl leading-tight font-bold mt-12">
               Africa&apos;s Smart Financing with AI
             </h1>
-            <p className="mt-8 text-xl w-3/4">
+            <p className="mt-8 text-xl md:w-3/4">
               Experience intelligent banking solutions with Apenia. Enjoy the
               personalized, secure, and effortless transactions powered by
               advanced AI technology.
             </p>
-            <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
+            <button className="bg-primary uppercase text-white rounded-full px-5 md:px-10 py-3 md:py-4 text-sm mt-8 flex flex-row">
               Join Apenia today
             </button>
           </div>
-          <div className="w-[30%] flex justify-end">
+          <div className="md:w-[30%] md:flex justify-end">
             <img
               src="/images/online-banking-28.png"
               alt="Apenia.com"
-              className="w-[50%] absolute right-0"
+              className="md:w-[50%] md:absolute right-0"
             />
           </div>
         </div>
-        <div className="grid grid-cols-4 mt-24 gap-4">
-          <div className=" col-start-1 col-end-1 p-6 bg-red-100 rounded-xl">
+        <div className="grid md:grid-cols-4 md:mt-24 gap-4">
+          <div className=" md:col-start-1 md:col-end-1 p-6 bg-red-100 rounded-xl">
             <img
               src="/images/insights.png"
               alt="wallet"
@@ -41,7 +41,7 @@ export default function Home() {
             <h2 className="text-xl font-bold my-4">Personalized Insights</h2>
             <p>Discover tailored recommendations based on your profile</p>
           </div>
-          <div className="  col-start-2 col-end-2 p-6 bg-red-200 rounded-xl">
+          <div className="  md:col-start-2 md:col-end-2 p-6 bg-red-200 rounded-xl">
             <img
               src="/images/secure.png"
               alt="wallet"
@@ -50,7 +50,7 @@ export default function Home() {
             <h2 className="text-xl font-bold my-4">Secure Transactions</h2>
             <p>Protecting your assets with advanced fraud detection</p>
           </div>
-          <div className="col-start-3 col-end-5 p-6 rounded-xl bg-red-300">
+          <div className="md:col-start-3 md:col-end-5 p-6 rounded-xl bg-red-300">
             <img
               src="/images/effortless.png"
               alt="wallet"
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
       </section>
       {/*  */}
-      <section className="grid grid-cols-2 place-content-center place-items-center p-24 px-40 bg-white">
+      <section className="grid md:grid-cols-2 place-content-center place-items-center md:p-24 md:px-40 bg-white">
         <div>
           <img
             src="/images/online-banking-50b.png"
@@ -91,7 +91,7 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="grid grid-cols-2 place-content-center place-items-center p-24 px-40">
+      <section className="grid md:grid-cols-2 place-content-center place-items-center md:p-24 md:px-40">
         <div>
           <p className="uppercase tracking-[0.8em] text-sm ml-1">AI Chatbot</p>
           <h2 className=" text-5xl font-semibold mt-5">
@@ -119,9 +119,9 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="p-24 flex justify-center items-center">
-        <div className=" bg-gradientTheme px-24 bg-blackTheme text-white rounded-3xl w-[70%] h-[500px] flex flex-col justify-center items-center">
-          <h1 className="text-5xl font-bold text-center leading-tight">
+      <section className="md:p-24 flex justify-center items-center">
+        <div className=" bg-gradientTheme md:px-24 bg-blackTheme text-white rounded-3xl md:w-[70%] h-[500px] flex flex-col justify-center items-center">
+          <h1 className="text-3xl md:text-5xl font-bold text-center leading-tight">
             Order Your New Digital Card Today
           </h1>
           <button className="bg-primary uppercase text-white rounded-full px-10 py-4 text-sm mt-8 flex flex-row">
@@ -131,7 +131,7 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="flex flex-col p-24">
+      <section className="flex flex-col md:p-24">
         <div className="text-center">
           <p className="uppercase tracking-[0.7em] text-sm">
             SEAMLESS FINANCES
@@ -140,7 +140,7 @@ export default function Home() {
             Easy to Use Financial Tools
           </h1>
         </div>
-        <div className="grid grid-cols-2 gap-12 place-content-center place-items-center">
+        <div className="grid md:grid-cols-2 gap-12 place-content-center place-items-center">
           <div className="flex flex-row">
             <img
               src="/images/guidance.png"
@@ -241,8 +241,8 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="p-24 pb-12 bg-white">
-        <div className="grid grid-cols-2">
+      <section className="md:p-24 md:pb-12 bg-white">
+        <div className="grid md:grid-cols-2">
           <div>
             <p className="uppercase tracking-[0.7em] text-sm">ABOUT US</p>
             <h2 className="text-5xl font-bold mt-4 mb-20 mr-32">
@@ -268,7 +268,7 @@ export default function Home() {
             setCounter(true);
           }}
         >
-          <div className="grid grid-cols-3 place-content-center place-items-center gap-12 py-12">
+          <div className="grid md:grid-cols-3 place-content-center place-items-center gap-12 py-12">
             <div className="border border-blackTheme text-center p-10 rounded-xl">
               <h2 className="pt-12 text-4xl font-bold">
                 {counter && (
