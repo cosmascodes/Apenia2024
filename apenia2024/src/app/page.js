@@ -152,7 +152,7 @@ export default function Home() {
               className=" w-auto h-10 mr-6 "
             />
             <div className="flex flex-col">
-              <h2 className="font-semibold text-2xl mb-3">
+              <h2 className="font-semibold text-xl md:text-2xl mb-3">
                 Personalized Financial Guidance
               </h2>
               <p>
@@ -168,7 +168,7 @@ export default function Home() {
               className=" w-auto h-10 mr-6 "
             />
             <div className="flex flex-col">
-              <h2 className="font-semibold text-2xl mb-3">
+              <h2 className="font-semibold text-xl md:text-2xl mb-3">
                 Cutting-Edge AI Technology
               </h2>
               <p>
@@ -184,7 +184,7 @@ export default function Home() {
               className=" w-auto h-10 mr-6 "
             />
             <div className="flex flex-col">
-              <h2 className="font-semibold text-2xl mb-3">
+              <h2 className="font-semibold text-xl md:text-2xl mb-3">
                 Transparent Fee Structure
               </h2>
               <p>
@@ -200,7 +200,7 @@ export default function Home() {
               className=" w-auto h-10 mr-6 "
             />
             <div className="flex flex-col">
-              <h2 className="font-semibold text-2xl mb-3">
+              <h2 className="font-semibold text-xl md:text-2xl mb-3">
                 Exceptional Customer Support
               </h2>
               <p>
@@ -216,7 +216,7 @@ export default function Home() {
               className=" w-auto h-10 mr-6 "
             />
             <div className="flex flex-col">
-              <h2 className="font-semibold text-2xl mb-3">
+              <h2 className="font-semibold text-xl md:text-2xl mb-3">
                 Seamless Digital Experience
               </h2>
               <p>
@@ -232,7 +232,7 @@ export default function Home() {
               className=" w-auto h-10 mr-6 "
             />
             <div className="flex flex-col">
-              <h2 className="font-semibold text-2xl mb-3">
+              <h2 className="font-semibold text-xl md:text-2xl mb-3">
                 Continuous Learning and Improvement
               </h2>
               <p>
@@ -245,11 +245,11 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className=" py-12 px-6 md:p-24 md:pb-12 bg-white">
+      <section className=" py-12 px-6 md:p-24 md:pb-12 bg-white text-sm md:text-base">
         <div className="grid md:grid-cols-2">
           <div>
             <p className="uppercase tracking-[0.7em] text-sm">ABOUT US</p>
-            <h2 className="text-5xl font-bold mt-4 mb-6 md:mb-20 md:mr-32">
+            <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-6 md:mb-20 md:mr-32">
               Get To Know More About Apenia A.I. Bank
             </h2>
           </div>

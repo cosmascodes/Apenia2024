@@ -28,17 +28,17 @@ const Footer = () => {
           <h2 className=" text-xl mb-6 font-semibold">Company</h2>
           <ul>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Blog
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Join Our Team
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 About Us
               </a>
             </li>
@@ -48,17 +48,17 @@ const Footer = () => {
           <h2 className=" text-xl mb-6 font-semibold">Help</h2>
           <ul>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Get Help
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 FAQs
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Contact Us
               </a>
             </li>
@@ -68,17 +68,17 @@ const Footer = () => {
           <h2 className=" text-xl mb-6 font-semibold">Customer</h2>
           <ul>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Save
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Transfer & Spend
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Invest
               </a>
             </li>
@@ -88,17 +88,17 @@ const Footer = () => {
           <h2 className=" text-xl mb-6 font-semibold">Invest in Business</h2>
           <ul>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Become an Investor
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Terms & Conditions
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Privacy Policy
               </a>
             </li>
@@ -110,12 +110,12 @@ const Footer = () => {
           <h2 className=" text-xl mb-6 font-semibold">Contact</h2>
           <ul>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 +2547 14 991 111
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 info@apenia.com
               </a>
             </li>
@@ -162,19 +162,19 @@ const Footer = () => {
           <h2 className=" text-xl mb-6 font-semibold">Nairobi</h2>
           <ul>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Chandaria Incubation and innovation Center,
               </a>
             </li>
             <li className=" mb-2 ">
-              <a href="#" className=" text-base">
+              <a href="#" className=" text-sm md:text-base">
                 Thika Road
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <div className="pt-20 pb-10 text-center md:text-left">
+      <div className="pt-20 pb-10 text-center md:text-left text-sm md:text-base">
         <p>&copy; 2024 Apenia Technologies Ltd. All rights reserved.</p>
       </div>
     </footer>
