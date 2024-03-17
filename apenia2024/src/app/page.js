@@ -67,7 +67,7 @@ export default function Home() {
         </div>
       </section>
       {/*  */}
-      <section className="grid md:grid-cols-2 place-content-center place-items-center md:p-24 md:px-40 bg-white">
+      <section className="grid md:grid-cols-2 place-content-center place-items-center py-12 px-6 md:p-24 md:px-40 bg-white">
         <div>
           <img
             src="/images/online-banking-50b.png"
@@ -75,7 +75,7 @@ export default function Home() {
             className="w-full h-[600px] border-8 border-blackTheme rounded-3xl"
           />
         </div>
-        <div>
+        <div className="pt-12 md:pt-0">
           <h2 className=" text-5xl font-semibold ">
             AI-Powered Fast Banking Solutions
           </h2>
