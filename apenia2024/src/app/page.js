@@ -11,15 +11,15 @@ export default function Home() {
       <section className="p-6 py-24 md:p-24  bg-hero-wave bg-center bg-cover">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-[70%] md:mt-12">
-            <h1 className="text-4xl md:text-6xl leading-tight font-bold mt-12">
+            <h1 className="text-2xl md:text-6xl leading-tight font-bold mt-12">
               Africa&apos;s Smart Financing with AI
             </h1>
-            <p className="mt-8 text-xl md:w-3/4">
+            <p className="mt-3 md:mt-8 text-sm md:w-3/4">
               Experience intelligent banking solutions with Apenia. Enjoy the
               personalized, secure, and effortless transactions powered by
               advanced AI technology.
             </p>
-            <button className="bg-primary uppercase text-white rounded-full px-5 md:px-10 py-3 md:py-4 text-sm mt-8 flex flex-row">
+            <button className="bg-primary uppercase text-white rounded-full px-5 md:px-10 py-4 text-sm mt-8 flex flex-row">
               Join Apenia today
             </button>
           </div>
@@ -32,31 +32,35 @@ export default function Home() {
           </div>
         </div>
         <div className="grid md:grid-cols-4 md:mt-24 gap-4">
-          <div className=" md:col-start-1 md:col-end-1 p-6 bg-red-100 rounded-xl">
+          <div className="text-sm md:text-base  md:col-start-1 md:col-end-1 p-6 bg-red-100 rounded-xl">
             <img
               src="/images/insights.png"
               alt="wallet"
-              className="w-[50px] h-[50px] mt-24"
+              className="w-[50px] h-[50px] mt-3 md:mt-24"
             />
-            <h2 className="text-xl font-bold my-4">Personalized Insights</h2>
+            <h2 className="text-base md:text-xl font-bold my-4">
+              Personalized Insights
+            </h2>
             <p>Discover tailored recommendations based on your profile</p>
           </div>
-          <div className="  md:col-start-2 md:col-end-2 p-6 bg-red-200 rounded-xl">
+          <div className="text-sm md:text-base   md:col-start-2 md:col-end-2 p-6 bg-red-200 rounded-xl">
             <img
               src="/images/secure.png"
               alt="wallet"
-              className="w-[50px] h-[50px] mt-24"
+              className="w-[50px] h-[50px] mt-3 md:mt-24"
             />
-            <h2 className="text-xl font-bold my-4">Secure Transactions</h2>
+            <h2 className="text-base md:text-xl font-bold my-4">
+              Secure Transactions
+            </h2>
             <p>Protecting your assets with advanced fraud detection</p>
           </div>
-          <div className="md:col-start-3 md:col-end-5 p-6 rounded-xl bg-red-300">
+          <div className="text-sm md:text-base md:col-start-3 md:col-end-5 p-6 rounded-xl bg-red-300">
             <img
               src="/images/effortless.png"
               alt="wallet"
-              className="w-[50px] h-[50px] mt-24"
+              className="w-[50px] h-[50px] mt-3 md:mt-24"
             />
-            <h2 className="text-xl font-bold my-4">
+            <h2 className="text-base md:text-xl font-bold my-4">
               Effortless Banking Experience
             </h2>
             <p>
@@ -75,8 +79,8 @@ export default function Home() {
             className="w-full h-[600px] border-8 border-blackTheme rounded-3xl"
           />
         </div>
-        <div className="pt-12 md:pt-0">
-          <h2 className=" text-5xl font-semibold ">
+        <div className="pt-12 md:pt-0 text-sm md:text-base">
+          <h2 className="text-xl md:text-5xl font-semibold ">
             AI-Powered Fast Banking Solutions
           </h2>
           <p className="my-8 pr-14">
