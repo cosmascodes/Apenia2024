@@ -109,7 +109,7 @@ export default function Home() {
             Apply now
           </button>
         </div>
-        <div className="md:pt-0 pt-12 px-6 md:px-0">
+        <div className="md:pt-0 pt-12 ">
           <img
             src="/images/online-banking-50b.png"
             alt="Apenia.com"
