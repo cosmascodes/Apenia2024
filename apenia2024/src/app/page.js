@@ -11,10 +11,10 @@ export default function Home() {
       <section className="p-6 py-24 md:p-24  bg-hero-wave bg-center bg-cover">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-[70%] md:mt-12">
-            <h1 className="text-2xl md:text-6xl leading-tight font-bold mt-12">
+            <h1 className="text-4xl md:text-6xl leading-tight font-bold mt-12">
               Africa&apos;s Smart Financing with AI
             </h1>
-            <p className="mt-3 md:mt-8 text-sm md:w-3/4">
+            <p className="mt-5 md:mt-8 text-sm md:w-3/4">
               Experience intelligent banking solutions with Apenia. Enjoy the
               personalized, secure, and effortless transactions powered by
               advanced AI technology.
@@ -80,7 +80,7 @@ export default function Home() {
           />
         </div>
         <div className="pt-12 md:pt-0 text-sm md:text-base">
-          <h2 className="text-xl md:text-5xl font-semibold ">
+          <h2 className="text-3xl md:text-5xl font-semibold ">
             AI-Powered Fast Banking Solutions
           </h2>
           <p className="my-8 pr-14">
@@ -95,10 +95,10 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="grid md:grid-cols-2 place-content-center place-items-center py-12 px-6 md:p-24 md:px-40">
+      <section className="grid md:grid-cols-2 place-content-center place-items-center py-12 px-6 md:p-24 md:px-40 text-sm md:text-base">
         <div>
           <p className="uppercase tracking-[0.8em] text-sm ml-1">AI Chatbot</p>
-          <h2 className=" text-5xl font-semibold mt-5">
+          <h2 className="text-3xl md:text-5xl font-semibold mt-5">
             Intelligent Chat Assistant
           </h2>
           <p className="my-8">
@@ -136,15 +136,15 @@ export default function Home() {
 
       {/*  */}
       <section className="flex flex-col px-6 md:px-0 py-12 md:p-24">
-        <div className="text-center">
+        <div className="md:text-center">
           <p className="uppercase tracking-[0.7em] text-sm">
             SEAMLESS FINANCES
           </p>
-          <h1 className="text-4xl font-bold mt-4 mb-20">
+          <h1 className="text-3xl md:text-4xl font-bold mt-4 mb-20">
             Easy to Use Financial Tools
           </h1>
         </div>
-        <div className="grid md:grid-cols-2 gap-12 place-content-center place-items-center">
+        <div className="grid md:grid-cols-2 gap-12 place-content-center place-items-center text-sm md:text-base">
           <div className="flex flex-row">
             <img
               src="/images/guidance.png"
