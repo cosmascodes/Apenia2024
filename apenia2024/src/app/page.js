@@ -131,7 +131,7 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="flex flex-col md:p-24">
+      <section className="flex flex-col px-6 md:px-0 py-12 md:p-24">
         <div className="text-center">
           <p className="uppercase tracking-[0.7em] text-sm">
             SEAMLESS FINANCES
@@ -241,11 +241,11 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="md:p-24 md:pb-12 bg-white">
+      <section className=" py-12 px-6 md:p-24 md:pb-12 bg-white">
         <div className="grid md:grid-cols-2">
           <div>
             <p className="uppercase tracking-[0.7em] text-sm">ABOUT US</p>
-            <h2 className="text-5xl font-bold mt-4 mb-20 mr-32">
+            <h2 className="text-5xl font-bold mt-4 mb-6 md:mb-20 md:mr-32">
               Get To Know More About Apenia A.I. Bank
             </h2>
           </div>
@@ -269,8 +269,8 @@ export default function Home() {
           }}
         >
           <div className="grid md:grid-cols-3 place-content-center place-items-center gap-12 py-12">
-            <div className="border border-blackTheme text-center p-10 rounded-xl">
-              <h2 className="pt-12 text-4xl font-bold">
+            <div className="border border-blackTheme text-center p-6 md:p-10 rounded-xl">
+              <h2 className="pt-6 md:pt-12 text-4xl font-bold">
                 {counter && (
                   <CountUp start={0} end={234} duration={2.75}></CountUp>
                 )}
@@ -281,8 +281,8 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-tertiary text-center p-10 rounded-xl">
-              <h2 className="pt-12 text-4xl font-bold">
+            <div className="bg-tertiary text-center p-6 md:p-10 rounded-xl">
+              <h2 className="pt-6 md:pt-12 text-4xl font-bold">
                 {counter && (
                   <CountUp start={0} end={10} duration={2.75}></CountUp>
                 )}
@@ -292,8 +292,8 @@ export default function Home() {
                 Trusted for decades, ensuring financial stability.
               </p>
             </div>
-            <div className="text-center p-10 rounded-xl bg-red-500">
-              <h2 className="pt-12 text-4xl font-bold">
+            <div className="text-center p-6 md:p-10 rounded-xl bg-red-500">
+              <h2 className="pt-6 md:pt-12 text-4xl font-bold">
                 {counter && (
                   <CountUp start={0} end={267} duration={2.75}></CountUp>
                 )}
