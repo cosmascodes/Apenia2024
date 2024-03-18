@@ -135,7 +135,7 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="flex flex-col px-6 md:px-0 py-12 md:p-24">
+      <section className="flex flex-col px-6 py-12 md:p-24">
         <div className="md:text-center">
           <p className="uppercase tracking-[0.7em] text-sm">
             SEAMLESS FINANCES
